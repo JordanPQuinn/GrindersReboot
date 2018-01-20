@@ -1,13 +1,42 @@
 .gallery-container{ 
   height: 100%;
   height: 500px;
+  border-bottom: 10px solid #BD1413;
 }
 
 .image-container {
   width: 100%;
   height: 100%;
-  background-image: url("./images/IMG_0325.JPG");
+  background-image: url("/images/IMG_0325.JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
+}
+
+.left {
+  background-image: url("/images/left.svg");
+  margin-top: 250px;
+}
+
+.right {
+  background-image: url("/images/right.svg");
+  float: right;
+}
+
+.left, .right {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 75px;
+  width: 75px;
+  margin-top: 225px;
+  border-radius: 50%;
+  border: 1px solid black;
+  -webkit-appearance: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left:hover, .right:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
 }

@@ -1,12 +1,11 @@
 .logo {
-  height: 215px;
+  height: 212px;
   margin: auto;
 }
 
 .logo-decoration {
-  border: 1px solid black;
   display: flex;
-  align-content: center;
+  align-items: flex-end;
   margin-top: 95px;
   height: 350px;
   min-width: 350px;
@@ -26,7 +25,7 @@ nav {
   text-align: center;
   align-items: center;
   width: 100%;
-  height: 200px;
+  height: 100%;
 }
 
 li {
@@ -37,4 +36,9 @@ li {
   font-size: 20px;
   color: white;
   text-align: center;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #BD1413;
 }
